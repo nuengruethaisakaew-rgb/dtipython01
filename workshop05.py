@@ -1,0 +1,8 @@
+#คำสั่งรับคำข้อความ ใช้ฟังก์ชัน input()
+fullname = input('ป้อนชื่อ: ')
+mid_score = input('ป้อนคะแนนสอบกลางภาค: ')
+final_score = input('ป้อนคะแนนสอบปลายภาค: ')
+quiz_score = input('ป้อนคะแนนเก็บ: ')
+print('---------------')
+print(f'สวัสดีคุณ : {fullname}')
+print(f'คุณสอบได้คะแนนรวม : {int(mid_score) + int(final_score) + int(quiz_score)} คะแนน ')
