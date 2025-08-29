@@ -11,7 +11,7 @@ print(15.4568) #fioat
 
 #boolean ตรรกะ มีแค่ 2 ค่า  True/False
 print(True)
-Print(False)
+print(False)
 
 # expression นิพจน์ คือ อะไรก็ตามที่มี process การทำงาน เฃ่นการคำนวณ การเปรียบเทียบ ตัวแปร...
 print(10+20)

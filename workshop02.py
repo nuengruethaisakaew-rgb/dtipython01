@@ -5,7 +5,7 @@ print("HI...")
 print('hey....')
 print('hello....')
 
-# number จำนวนเต็ม
+# 1.บรรทัด หลายคำสั่ง (จะใช้ ; คั่นแต่ละคำสั่งโดยคำสั่งสุดท้าย จะมี ; ปิดท้ายหรือไม่ก็ได้)
 print('AAA'); print('BBB'); print('CCC')
 print('DDD')
 print('EEE'); print('FFF');
