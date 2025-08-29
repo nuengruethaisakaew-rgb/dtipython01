@@ -22,26 +22,16 @@ height_cm = float(input("ป้อนส่วนสูง (cm): "))
 
 print("--------------------------------")
 
-# แปลงส่วนสูงจาก cm -> m
-height_m = height_cm / 100
+print("===========================")
+print(" Program BMi CALCULATOR ")
+print("===========================")
 
-# คำนวณค่า BMI
-bmi = weight / (height_m ** 2)
+name = input("ป้อนชื่อ: ")
+weight = float(input("ป้อนน้ำหนัก(กิโลกรัม): "))
+height = float(input("ป้อนส่วนสูง(เซนติเมตร): ")) / 100
 
-# แปลผลค่า BMI
-if bmi < 18.5:
-    status = "ผอม"
-elif bmi < 23:
-    status = "ปกติ"
-elif bmi < 25:
-    status = "ท้วม"
-elif bmi < 30:
-    status = "อ้วนระดับ 1"
-else:
-    status = "อ้วนระดับ 2"
-
-# แสดงผล
-print(f"คุณ {name} หนัก {weight:.1f} kg. สูง {height_m:.2f} m.")
-print(f"มีค่า BMI เป็น {bmi:.2f} ({status})")
-
-print("--------------------------------")
+bmi = weight / (height ** 2)
+print("===========================")
+print("คุณ {} หนัก {:.2f} กิโลกรัม. สูง {:.2f} เซนติเมตร.".format(name, weight, height * 100))
+print("มีค่า BMI เป็น {:.2f}".format(bmi))
+print("===========================")
