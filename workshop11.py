@@ -20,7 +20,7 @@ name = input("ป้อนชื่อ: ")
 weight = float(input("ป้อนน้ำหนัก (kg): "))
 height_cm = float(input("ป้อนส่วนสูง (cm): "))
 
-print("--------------------------------")
+print("-------------------------------------")
 
 print("===========================")
 print(" Program BMi CALCULATOR ")

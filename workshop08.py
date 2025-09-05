@@ -14,7 +14,7 @@
 # Enter number 3 : <input>
 # Enter number 4 : <input>
 # Enter number 5 : <input>
-# ============================
+# =================================
 # Sum of 5 number is : <output>
 # Average of 5 number is : <output>
 # ============================
